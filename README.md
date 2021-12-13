@@ -1,1 +1,9 @@
 # Survivorship-Bias-in-IR-datasets
+
+The project works on two main objectives. First is to analyse the msmarco-qna dataset with the intent of finding out patterns in answered and unanswered queries. Second is to find the extent to which survivorship bias can affect the sparsely labelled representativa dataset : MS MARCO.
+
+## Running the notebook
+The notebook "Survivorship_bias_in_MSMARCO" contains all the code that is written to pursue the objectives of the project. Due to the usage of google.colab imports, it is advised that the code is run on google colab. Another consideration is to have sufficient RAM which is essential to run the code.
+
+## Data
+The project deals with MS MARCO, which is a large dataset. During the tenure of the project, a copy of the MS MARCO was saved onto the google drive which helped in accelerating the process by bypassing the download of data at runtime. However, linking to the google drive requires user authentication. If the code is run, the msmarco dataset would be downloaded at runtime using the ir_datasets python  package, which can be time-consuming because of the size of the dataset.
