@@ -1,5 +1,7 @@
 # Survivorship-Bias-in-IR-datasets
 
+**This project is presented in part fulfilment of the requirements of the Degree of Master of Science at The University of Glasgow**
+
 The project works on two main objectives. First is to analyse the msmarco-qna dataset with the intent of finding out patterns in answered and unanswered queries. Second is to find the extent to which survivorship bias can affect the sparsely labelled representativa dataset : MS MARCO.
 
 ## Datasets involved
